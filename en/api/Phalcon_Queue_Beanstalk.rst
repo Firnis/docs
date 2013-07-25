@@ -9,13 +9,14 @@ Methods
 
 public  **__construct** ([*array* $options])
 
-
+Phalcon\\Queue\\Beanstalk constructor
 
 
 
 public  **connect** ()
 
-...
+Opens the connection to the beanstalk server.
+
 
 
 public  **put** (*string* $data, [*array* $options])
